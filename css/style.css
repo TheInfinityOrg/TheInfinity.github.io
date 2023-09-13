@@ -36,7 +36,7 @@ body{
   
   /* Header **/
   header{
-    background:#35424a;
+    background:#100720;
     color:#ffffff;
     padding-top:30px;
     min-height:70px;
@@ -70,12 +70,17 @@ body{
   }
   
   header .highlight, header .current a{
-    color:#6e00ff;
+    color: rgba( 255,94,247,1);
+    font-weight:bold;
+  }
+
+  header .highlight2 {
+    color: rgba(2,245,255,1);
     font-weight:bold;
   }
   
   header a:hover{
-    color:#000000;
+    color: rgba(2,245,255,1);
     font-weight:bold;
   }
   
